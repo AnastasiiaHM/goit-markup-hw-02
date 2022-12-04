@@ -1,0 +1,57 @@
+/* primery text-color - #757575
+secondary tex-color - #212121
+primery background-color - #F5F5F5
+footer-hero color - #2F303A
+button active color - #2196F3
+web color - #2196F3
+studio color - #000000
+button color - #F5F4FA
+color adress - #FFFFFF
+color footer contact - rgba(255, 255, 255, 0.6) */
+:root{
+    --primery-text-color:#757575;
+    --secondary-text-color:#212121;
+    --active-color:#2196F3;
+    --button-color:#F5F4FA
+
+}
+.page{
+    background-color: #F5F5F5;
+    color:var(--primery-text-color);
+}
+/*logo style*/
+.web{
+    color:var(--active-color);
+}
+.studio{
+    color: #000;
+}
+
+
+/*utilited for all ul*/
+.utilited-ul{
+    list-style: none;
+}
+
+
+/*site navigation style*/
+.site-nav .link{
+color:var(--secondary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color:var(--active-color);
+}
+.contact{
+color:var(--primery-text-color);
+}
+.contact .link:hover,
+.contact .link:focus{
+    color:var(--active-color);
+}
+
+
+/* section title style */
+.section .section-title{
+    color:var(--secondary-text-color)
+}
