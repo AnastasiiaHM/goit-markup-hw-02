@@ -18,6 +18,7 @@ color footer contact - rgba(255, 255, 255, 0.6) */
 .page{
     background-color: #F5F5F5;
     color:var(--primery-text-color);
+    font-family: Roboto, sans-serif;
 }
 /*logo style*/
 .web{
