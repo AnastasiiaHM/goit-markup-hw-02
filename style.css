@@ -37,14 +37,24 @@ color footer contact - rgba(255, 255, 255, 0.6) */
 }
 .studio {
   color: #000;
-  font-family: Raleway;
-  font-size: Bold;
-  font-size: 26px;
-  line-height: 1.2;
-  line-height: 100%;
-  vertical-align: top;
-  letter-spacing: 3%;
   text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.studio-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 /*utilited for all ul*/
@@ -75,12 +85,23 @@ color footer contact - rgba(255, 255, 255, 0.6) */
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.contact .link:hover,
-.contact .link:focus {
+.contact .header:hover,
+.contact .header:focus {
   color: var(--active-color);
+}
+.contact .footer {
+  color: #ffffff 60%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /*Hero*/
+.hero {
+  background-color: #2f303a;
+}
 .hero .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -117,12 +138,20 @@ color footer contact - rgba(255, 255, 255, 0.6) */
 
 /* Features style */
 
-.features-list .features-title {
+.features-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--secondary-text-color);
 }
 
 /* Team style */
@@ -135,8 +164,11 @@ color footer contact - rgba(255, 255, 255, 0.6) */
 .team .team-text {
   text-align: center;
 }
+/*Footer  */
+.footer {
+  background-color: #2f303a;
+}
 
-/*adress*/
 .adress {
   color: #ffffff;
   font-weight: 400;
