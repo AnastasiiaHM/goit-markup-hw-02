@@ -126,14 +126,21 @@ color footer contact - rgba(255, 255, 255, 0.6) */
   color: var(--secondary-text-color);
   background-color: var(--button-color);
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-.button.primery {
+
+.hero .button-hero {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--active-color);
-}
-.button.secondary {
-  color: var(--secondary-text-color);
-  background-color: var(--button-color);
 }
 
 /* Features style */
@@ -157,9 +164,13 @@ color footer contact - rgba(255, 255, 255, 0.6) */
 /* Team style */
 
 .team .team-title {
-  font-weight: 500;
-  text-align: center;
-  letter-spacing: 0.03em;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--secondary-text-color)
 }
 .team .team-text {
   text-align: center;
@@ -177,6 +188,11 @@ color footer contact - rgba(255, 255, 255, 0.6) */
 }
 
 /* Portfolio styles */
+.buttons-portfolio .button:hover,
+.buttons-portfolio .button:focus {
+  color: #ffffff;
+  background-color: var(--active-color);
+}
 .portfolio .title {
   color: var(--secondary-text-color);
   font-weight: 700;
