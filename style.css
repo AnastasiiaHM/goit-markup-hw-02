@@ -76,6 +76,15 @@ color footer contact - rgba(255, 255, 255, 0.6) */
   color: var(--active-color);
 }
 
+.site-nav .active-page{
+  color: var(--active-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
 /*contact-style*/
 .contact {
   color: var(--primery-text-color);
@@ -96,6 +105,12 @@ color footer contact - rgba(255, 255, 255, 0.6) */
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.contact .footer:hover,
+.contact .footer:focus {
+  color: var(--active-color);
 }
 
 /*Hero*/
@@ -103,6 +118,7 @@ color footer contact - rgba(255, 255, 255, 0.6) */
   background-color: #2f303a;
 }
 .hero .hero-title {
+  color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -150,7 +166,6 @@ color footer contact - rgba(255, 255, 255, 0.6) */
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .features-title {
   font-weight: 700;
@@ -164,13 +179,12 @@ color footer contact - rgba(255, 255, 255, 0.6) */
 /* Team style */
 
 .team .team-title {
-
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-letter-spacing: 0.03em;
-color:var(--secondary-text-color)
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 .team .team-text {
   text-align: center;
@@ -182,9 +196,12 @@ color:var(--secondary-text-color)
 
 .adress {
   color: #ffffff;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 /* Portfolio styles */
